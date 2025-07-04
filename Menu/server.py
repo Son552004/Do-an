@@ -566,4 +566,5 @@ def settings_page():
 if __name__ == '__main__':
     print("Server đang chạy tại http://localhost:5000")
     print("Chờ đơn hàng từ ESP32...")
+    print("Để cài đặt thông tin ngân hàng, truy cập: http://localhost:5000/settings")
     app.run(host='0.0.0.0', port=5000) 

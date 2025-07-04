@@ -86,7 +86,7 @@ bool hasQrCode = false;
 AsyncWebServer server(80);
 
 // Cấu hình WiFi
-const char* SERVER_URL = "http://192.168.1.183:5000/order"; // Cập nhật IP của máy tính
+const char* SERVER_URL = "http://192.168.1.104:5000/order"; // Cập nhật IP của máy tính
 
 // Biến lưu trữ trạng thái WiFi
 bool wifiConnected = false;
